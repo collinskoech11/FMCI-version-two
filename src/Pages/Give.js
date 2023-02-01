@@ -1,4 +1,26 @@
-import React from "react";
+import {Mpesa } from "daraja";
+
+const mpesa = new Mpesa(123456, 'yourConsumerKey', 'yourConsumerSecret');
+
+mpesa
+  .mpesaExpressRequest(
+    100,
+    254712345678,
+    123456,
+    'bfb279f9aa9bdbcf15...',
+    'CustomerPayBillOnline',
+    'INV001',
+    'Regular payment',
+    'http://callbackurl.com'
+  )
+  .then(response => {
+    // SUCCESS
+    // do something with the response
+  })
+  .catch(error => {
+    // FAILED
+    // handle the error
+  });
 
 function Give() {
   return (
@@ -18,7 +40,7 @@ function Give() {
 
           <div className="gpt3__header-content__input">
             <input type="number" placeholder="Amount" />
-            <button type="button">Get Started</button>
+            <button type="button">Give Offering</button>
           </div>
 
           <div className="gpt3__header-content__people">

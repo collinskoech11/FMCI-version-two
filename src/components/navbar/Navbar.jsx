@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../logo.svg";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -20,7 +19,7 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </p>
           <p>
-            <Link to="/">News & Updates</Link>
+            <Link to="/news">News & Updates</Link>
           </p>
           <p>
             <Link to="/give">Give Offering</Link>
@@ -61,7 +60,7 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
               </p>
               <p>
-                <Link to="/">News & Updates</Link>
+                <Link to="/news">News & Updates</Link>
               </p>
               <p>
                 <Link to="/give">Give Offering</Link>
