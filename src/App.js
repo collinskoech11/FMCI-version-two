@@ -11,6 +11,8 @@ import Just from "./Pages/Just";
 import YouTube from "./Pages/YouTube";
 import Give from "./Pages/Give";
 import NewsUpdates from "./Pages/NewsUpdates";
+import Photo from "./Pages/Photo";
+import ViewAlbum from "./Pages/ViewAlbum";
 
 const App = () => (
   <>
@@ -24,6 +26,9 @@ const App = () => (
         <Route path="/youtube" element={<YouTube />} />
         <Route path="/news" element={<NewsUpdates />} />
         <Route path="/give" element={<Give />} />
+        <Route path="/Photo" element={<Photo/>} />
+        <Route path="/viewalbum" element={<ViewAlbum/>} />
+
       </Routes>
       <Footer />
     </div>

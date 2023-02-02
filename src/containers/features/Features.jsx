@@ -5,19 +5,19 @@ import './features.css';
 const featuresData = [
   {
     title: 'Weekly Meet Ups',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    text: 'Matthew 18:20 -> For where two or three are gathered in my name, there am I among them. – Jesus',
   },
   {
     title: 'Youth Training services',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    text: 'John 13:34-35 -> "A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are my disciples, if you have love for one another.” – Jesus',
   },
   {
     title: 'Monthly prayer crusades for deliverance',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    text: 'Galatians 6:1-2 -> Brothers, if anyone is caught in any transgression, you who are spiritual should restore him in a spirit of gentleness. Keep watch on yourself, lest you too be tempted. Bear one another’s burdens, and so fulfill the law of Christ.',
   },
   {
     title: 'Weekly sunday sevices',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    text: 'Acts 5:42 -> And every day, in the temple and from house to house, they did not cease teaching and preaching that the Christ is Jesus.',
   },
 ];
 

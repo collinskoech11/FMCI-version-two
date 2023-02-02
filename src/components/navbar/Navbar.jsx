@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link to="/justfm">Just Fm Radio</Link>
           </p>
           <p>
-            <Link to="/">Photo Library</Link>
+            <Link to="/Photo">Photo Library</Link>
           </p>
           <p>
             <Link to="/youtube">Weekly Live stream</Link>
@@ -57,22 +57,22 @@ const Navbar = () => {
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
               <p>
-                <Link to="/">Home</Link>
+                <Link to="/" onClick={() => setToggleMenu(false)} >Home</Link>
               </p>
               <p>
-                <Link to="/news">News & Updates</Link>
+                <Link to="/news" onClick={() => setToggleMenu(false)} >News & Updates</Link>
               </p>
               <p>
-                <Link to="/give">Give Offering</Link>
+                <Link to="/give" onClick={() => setToggleMenu(false)} >Give Offering</Link>
               </p>
               <p>
-                <Link to="/justfm">Just Fm Radio</Link>
+                <Link to="/justfm" onClick={() => setToggleMenu(false)} >Just Fm Radio</Link>
               </p>
               <p>
-                <Link to="/">Photo Library</Link>
+                <Link to="/Photo" onClick={() => setToggleMenu(false)} >Photo Library</Link>
               </p>
               <p>
-                <Link to="/youtube">Weekly Live stream</Link>
+                <Link to="/youtube" onClick={() => setToggleMenu(false)} >Weekly Live stream</Link>
               </p>
             </div>
             {/* <div className="gpt3__navbar-menu_container-links-sign">

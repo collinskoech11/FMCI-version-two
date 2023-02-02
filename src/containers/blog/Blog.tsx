@@ -22,12 +22,14 @@ const GET_USER_ARTICLES = gql`
 
 const Blog = () => {
   const [BlogData, setBlogData] = useState([]);
+  const [err, setError] = useState<any>(null)
   const { data, loading, error } = useQuery(GET_USER_ARTICLES);
 
   const getData = useCallback(() => {
     if (loading) return "Loading...";
-    if (error) console.log("=====", error.message);
-    console.log("=====", data.user.publication.posts);
+    if (error) {
+      setError(error.message);
+    }
     setBlogData(data.user.publication.posts);
   },[ data, loading, error]);
 
@@ -43,13 +45,6 @@ const Blog = () => {
         </h1>
       </div>
       <div className="gpt3__blog-container">
-        {/* <div className="gpt3__blog-container_groupA">
-          <Article
-            imgUrl={blog01}
-            date="Sep 26, 2021"
-            text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-          />
-        </div> */}
         <div className="gpt3__blog-container_groupB">
           {BlogData.map((item:any, index) => {
             return (
@@ -58,8 +53,6 @@ const Blog = () => {
                 imgUrl={item.coverImage}
                 date={item.brief}
                 text={item.title}
-                // link={slug}
-
               />
             );
           })}

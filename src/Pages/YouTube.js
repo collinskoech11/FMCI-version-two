@@ -6,12 +6,9 @@ function YouTube() {
       <iframe
         style={{
           minWidth: "98vw",
-          width: "auto",
+          width: "98vw",
           marginLeft:"1vw",
           height: "900px",
-          maxWidth:"90vh",
-          margin: "auto",
-          border: "1px solid white",
         }}
         src="https://www.youtube.com/embed/videoseries?list=PLOZRt35BMbHCgeYwMhQ_83pKnLCtfHM8J"
         title="YouTube video player"
