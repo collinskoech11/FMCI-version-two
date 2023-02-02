@@ -5,8 +5,8 @@ function Give() {
   const submitReuest = () => {
     const mpesa = new Mpesa(
       123456,
-      "OkLQ4em76Mit0L6bep9fyVYatIEXOuNs",
-      "VhfWaqnpM39K2uqY",
+      "",
+      "",
     );
 
     mpesa
