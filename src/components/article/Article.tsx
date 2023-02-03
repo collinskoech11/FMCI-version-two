@@ -14,7 +14,7 @@ const Article = ({ imgUrl, date, text  }) => {
           <p>{date}</p>
           <h3>{text}</h3>
         </div>
-        <p style={{color:"#fff"}}>Read Full Article</p>
+        <a style={{color:"#fff"}} href="https://news.faithministrieschurchinternational.org/">Read Full Article</a>
       </div>
     </div>
   );

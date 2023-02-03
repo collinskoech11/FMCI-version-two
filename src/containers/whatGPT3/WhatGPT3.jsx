@@ -3,9 +3,9 @@ import Feature from '../../components/feature/Feature';
 import './whatGPT3.css';
 
 const WhatGPT3 = () => (
-  <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+  <div className="gpt3__whatgpt3 section__margin" id="wgpt3" style={{background:"lightgray"}}>
     <div className="gpt3__whatgpt3-feature">
-      <Feature title="Why FMCI" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
+      <Feature title="Why FMCI" text="Whoever believes in the Son of God has the testimony in himself. Whoever does not believe God has made him a liar, because he has not believed in the testimony that God has borne concerning his Son. And this is the testimony, that God gave us eternal life, and this life is in his Son. Whoever has the Son has life; whoever does not have the Son of God does not have life." />
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">The power of believing</h1>

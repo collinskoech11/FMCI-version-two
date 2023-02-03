@@ -25,6 +25,8 @@ const Blog = () => {
   const [err, setError] = useState<any>(null)
   const { data, loading, error } = useQuery(GET_USER_ARTICLES);
 
+  console.log(data)
+
   const getData = useCallback(() => {
     if (loading) return "Loading...";
     if (error) {
@@ -32,6 +34,7 @@ const Blog = () => {
     }
     setBlogData(data.user.publication.posts);
   },[ data, loading, error]);
+
 
   useEffect(() => {
     getData();
