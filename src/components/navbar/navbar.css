@@ -15,11 +15,17 @@
 
 .gpt3__navbar-links_logo {
     margin-right: 2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
 }
-
+.gpt3__navbar-links_logo p{
+    color: var(--gradient-text);
+}
 .gpt3__navbar-links_logo img {
     width: 62.56px;
-    height: 16.02px;
+    height: auto;
 }
 
 .gpt3__navbar-links_container {

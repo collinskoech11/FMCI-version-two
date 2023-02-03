@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import logo from "../../assets/logo192.png"
 import "./navbar.css";
 
 const Navbar = () => {
@@ -10,9 +11,8 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <p style={{ color: "#fff", fontWeight: "bold", fontSize: "25px" }}>
-            FMCI
-          </p>
+          <img src={logo} alt="displayed logo image"/>
+          <p style={{ fontWeight:"bold", fontSize:"large"}} className="gradient__text">FMCI</p>
         </div>
         <div className="gpt3__navbar-links_container">
           <p>
