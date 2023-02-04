@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
           <img src={logo} alt="displayed logo image"/>
-          <p style={{ fontWeight:"bold", fontSize:"large"}} className="gradient__text">FMCI</p>
+          <p style={{ fontWeight:"bold", fontSize:"large",color:'#fff'}}> &nbsp; FMCI</p>
         </div>
         <div className="gpt3__navbar-links_container">
           <p>

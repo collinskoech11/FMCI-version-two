@@ -12,9 +12,9 @@ const WhatGPT3 = () => (
       <p>Explore the Library</p>
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Prayer Crusades" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature title="Sermons" text="a religious discourse delivered in public usually by a member of the clergy as a part of a worship service" />
-      <Feature title="Intercessory Prayer" text="We bring to mind all those in our locality who find themselves in a hard place. We especially pray for those who suffer physically with illness or mentally with depression or anxiety." />
+      <Feature  title="Prayer Crusades" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
+      <Feature  title="Sermons" text="a religious discourse delivered in public usually by a member of the clergy as a part of a worship service" />
+      <Feature  title="Intercessory Prayer" text="We bring to mind all those in our locality who find themselves in a hard place. We especially pray for those who suffer physically with illness or mentally with depression or anxiety." />
     </div>
   </div>
 );

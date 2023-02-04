@@ -5,7 +5,7 @@ import "./footer.css";
 const Footer = () => (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">
+      <h1 style={{color:"#fff"}}>
         Do you want to take a step of faith and join us
       </h1>
     </div>

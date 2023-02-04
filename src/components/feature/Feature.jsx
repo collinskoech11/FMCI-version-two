@@ -5,10 +5,10 @@ const Feature = ({ title, text }) => (
   <div className="gpt3__features-container__feature">
     <div className="gpt3__features-container__feature-title">
       <div />
-      <h1 className="gradient__text">{title}</h1>
+      <h1 style={{color:"#000"}}>{title}</h1>
     </div>
-    <div className="gpt3__features-container_feature-text">
-      <p>{text}</p>
+    <div className="gpt3__features-container_feature-text ">
+      <p style={{color:"linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%) "}}>{text}</p>
     </div>
   </div>
 );
