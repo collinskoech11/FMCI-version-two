@@ -7,7 +7,7 @@ import { useQuery, gql } from "@apollo/client";
 
 const GET_USER_ARTICLES = gql`
   query GetUserArticles {
-    user(username: "xenia555") {
+    user(username: "FaithMinistries") {
       publication {
         posts {
           title
