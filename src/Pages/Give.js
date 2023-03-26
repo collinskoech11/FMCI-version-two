@@ -31,11 +31,11 @@ function Give() {
     <div className="gradient__bg">
       <div className="gpt3__header section__padding" id="home">
         <div className="gpt3__header-content">
-          <h1 className="gradient__text">Offerings for our mission</h1>
-          <p>Lets join hands to give</p>
+          <h1  style={{color:"#fff"}}>Offerings for our mission</h1>
+          <p style={{color:"#fff"}}>Lets join hands to give</p>
 
           <div className="gpt3__header-content__input">
-            <input type="text" placeholder="Your Phone Number" />
+            <input type="text" placeholder="Your Phone Number" style={{background:"#fff"}}/>
           </div>
 
           <div className="gpt3__header-content__input">

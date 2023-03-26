@@ -47,11 +47,11 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    background: var(--color-footer);
+    background: #fff;
     border: 2px solid var(--color-footer);
     padding: 0 1rem;
     outline: none;
-    color: #fff;
+    color: #000;
 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
