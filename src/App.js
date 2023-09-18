@@ -28,7 +28,6 @@ const App = () => (
         <Route path="/give" element={<Give />} />
         <Route path="/Photo" element={<Photo/>} />
         <Route path="/viewalbum" element={<ViewAlbum/>} />
-
       </Routes>
       <Footer />
     </div>
