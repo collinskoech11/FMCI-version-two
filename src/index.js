@@ -5,15 +5,15 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
-const client = new ApolloClient({
-  uri: "https://api.hashnode.com/",
-  cache: new InMemoryCache(),
-});
+// const client = new ApolloClient({
+//   uri: "https://api.hashnode.com/",
+//   cache: new InMemoryCache(),
+// });
 
 const Application = () => {
   return (
     <React.StrictMode>
-      <ApolloProvider client={client}>
+      <ApolloProvider>
         <BrowserRouter>
           <App />
         </BrowserRouter>

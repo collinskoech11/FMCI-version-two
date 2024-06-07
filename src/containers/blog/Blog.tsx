@@ -22,10 +22,10 @@ const GET_USER_ARTICLES = gql`
 
 const Blog = () => {
   const [BlogData, setBlogData] = useState([]);
-  const [err, setError] = useState<any>(null)
+  const [err, setError] = useState<any>(null);
   const { data, loading, error } = useQuery(GET_USER_ARTICLES);
 
-  console.log(data)
+  console.log(data);
 
   const getData = useCallback(() => {
     if (loading) return "Loading...";
@@ -33,15 +33,14 @@ const Blog = () => {
       setError(error.message);
     }
     setBlogData(data.user.publication.posts);
-  },[ data, loading, error]);
-
+  }, [data, loading, error]);
 
   useEffect(() => {
     getData();
   }, [getData]);
   return (
     <div className="gpt3__blog section__padding" id="blog">
-      <div className="gpt3__blog-heading">
+      {/* <div className="gpt3__blog-heading">
         <h1 className="gradient__text">
           A lot is happening, <br />
           See what's Coming Up.
@@ -61,7 +60,8 @@ const Blog = () => {
           })}
           ,
         </div>
-      </div>
+      </div> */}
+      <h1 className="gradient__text">Coming soon</h1>
     </div>
   );
 };
