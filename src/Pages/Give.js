@@ -1,32 +1,31 @@
 import { Mpesa } from "daraja";
-import React, { useState } from "react";
 
 function Give() {
-  const submitReuest = () => {
-    const mpesa = new Mpesa(
-      123456,
-      "",
-      "",
-    );
+  // const submitReuest = () => {
+  //   const mpesa = new Mpesa(
+  //     123456,
+  //     "",
+  //     "",
+  //   );
 
-    mpesa
-      .mpesaExpressRequest(
-        100,
-        254728000207,
-        123456,
-        "bfb279f9aa9bdbcf15...",
-        "CustomerPayBillOnline",
-        "INV001",
-        "Regular payment",
-        "http://callbackurl.com"
-      )
-      .then((response) => {
-        return response
-      })
-      .catch((error) => {
-        return error
-      });
-  };
+  //   mpesa
+  //     .mpesaExpressRequest(
+  //       100,
+  //       254728000207,
+  //       123456,
+  //       "bfb279f9aa9bdbcf15...",
+  //       "CustomerPayBillOnline",
+  //       "INV001",
+  //       "Regular payment",
+  //       "http://callbackurl.com"
+  //     )
+  //     .then((response) => {
+  //       return response
+  //     })
+  //     .catch((error) => {
+  //       return error
+  //     });
+  // };
   return (
     <div className="gradient__bg">
       <div className="gpt3__header section__padding" id="home">

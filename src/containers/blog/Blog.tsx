@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useCallback } from "react";
+import  { useState } from "react";
 // import {Link} from "react-router-dom"
-import Article from "../../components/article/Article";
 import "./blog.css";
 
 // import { useQuery, gql } from "@apollo/client";

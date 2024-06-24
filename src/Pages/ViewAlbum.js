@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 function ViewAlbum() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);

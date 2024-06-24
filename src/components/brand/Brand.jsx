@@ -1,6 +1,5 @@
 // import React from 'react';
 // import { google, slack, atlassian, dropbox, shopify } from './imports';
-import  shopify   from "../../assets/animate.gif";
 import "./brand.css";
 
 const Brand = () => (
