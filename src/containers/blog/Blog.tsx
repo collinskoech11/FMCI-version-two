@@ -3,41 +3,41 @@ import React, { useState, useEffect, useCallback } from "react";
 import Article from "../../components/article/Article";
 import "./blog.css";
 
-import { useQuery, gql } from "@apollo/client";
+// import { useQuery, gql } from "@apollo/client";
 
-const GET_USER_ARTICLES = gql`
-  query GetUserArticles {
-    user(username: "FaithMinistries") {
-      publication {
-        posts {
-          title
-          brief
-          slug
-          coverImage
-        }
-      }
-    }
-  }
-`;
+// const GET_USER_ARTICLES = gql`
+//   query GetUserArticles {
+//     user(username: "FaithMinistries") {
+//       publication {
+//         posts {
+//           title
+//           brief
+//           slug
+//           coverImage
+//         }
+//       }
+//     }
+//   }
+// `;
 
 const Blog = () => {
   const [BlogData, setBlogData] = useState([]);
   const [err, setError] = useState<any>(null);
-  const { data, loading, error } = useQuery(GET_USER_ARTICLES);
+  // const { data, loading, error } = useQuery(GET_USER_ARTICLES);
 
-  console.log(data);
+  // console.log(data);
 
-  const getData = useCallback(() => {
-    if (loading) return "Loading...";
-    if (error) {
-      setError(error.message);
-    }
-    setBlogData(data.user.publication.posts);
-  }, [data, loading, error]);
+  // const getData = useCallback(() => {
+  //   if (loading) return "Loading...";
+  //   if (error) {
+  //     setError(error.message);
+  //   }
+  //   setBlogData(data.user.publication.posts);
+  // }, [data, loading, error]);
 
-  useEffect(() => {
-    getData();
-  }, [getData]);
+  // useEffect(() => {
+  //   getData();
+  // }, [getData]);
   return (
     <div className="gpt3__blog section__padding" id="blog">
       {/* <div className="gpt3__blog-heading">
@@ -61,7 +61,7 @@ const Blog = () => {
           ,
         </div>
       </div> */}
-      <h1 className="gradient__text">Coming soon</h1>
+      <h1 className="gradient__text">News updates coming soon</h1>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
-import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
+// import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 // const client = new ApolloClient({
 //   uri: "https://api.hashnode.com/",
@@ -13,11 +13,9 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 const Application = () => {
   return (
     <React.StrictMode>
-      <ApolloProvider>
         <BrowserRouter>
           <App />
         </BrowserRouter>
-      </ApolloProvider>
     </React.StrictMode>
   );
 };
