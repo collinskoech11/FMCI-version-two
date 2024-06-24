@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt="displayed logo image"/>
+          <img src={logo} alt="fim logo"/>
           <p style={{ fontWeight:"bold", fontSize:"large",color:'#fff'}}> &nbsp; FMCI</p>
         </div>
         <div className="gpt3__navbar-links_container">

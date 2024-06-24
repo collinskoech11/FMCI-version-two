@@ -20,8 +20,8 @@ import "./blog.css";
 // `;
 
 const Blog = () => {
-  const [BlogData, setBlogData] = useState([]);
-  const [err, setError] = useState<any>(null);
+  // const [BlogData, setBlogData] = useState([]);
+  // const [err, setError] = useState<any>(null);
   // const { data, loading, error } = useQuery(GET_USER_ARTICLES);
 
   // console.log(data);

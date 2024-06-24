@@ -11,7 +11,7 @@ function ViewAlbum() {
           {name}<br />
         </h2>
       </div>
-    <iframe src={link}/>
+    <iframe src={link} title="iframe"/>
     </>
   )
 }
