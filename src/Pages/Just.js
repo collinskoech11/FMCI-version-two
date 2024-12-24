@@ -4,7 +4,7 @@ import "./iframe.css"
 function Just() {
   return (
     <>
-      <iframe id="iframe" title="justfm radio stream" src="https://zeno.fm/radio/the-just-fm-radio/" scrolling="no" className="iframe"></iframe>
+      <iframe id="iframe" title="justfm radio stream" src="https://zeno.fm/player/the-just-fm-radio/" scrolling="no" className="iframe"></iframe>
     </>
   )
 }
